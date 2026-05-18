@@ -11,7 +11,7 @@
 }
 
 body {
-	background-color: var(--custom-green);
+	/* background-color: var(--custom-green); */
 	font-family: Arial, sans-serif;
 	/* display: flex;
 	flex-direction: column;
@@ -21,6 +21,7 @@ body {
 main {
 	flex-grow: 1;
 	width: 100%;
+	background-color: var(--custom-green);
 }
 
 footer {
