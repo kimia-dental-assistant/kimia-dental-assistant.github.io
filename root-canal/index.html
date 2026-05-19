@@ -6,7 +6,15 @@
 			name="viewport"
 			content="width=device-width, initial-scale=1.0"
 		/>
-		<title>Root Canal</title>
+		<title>Root Canal Treatment</title>
+		<link
+			rel="stylesheet"
+			href="/style.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="/header.css"
+		/>
 		<link
 			rel="icon"
 			type="image/png"
@@ -14,6 +22,69 @@
 		/>
 	</head>
 	<body>
+		<nav class="navbar">
+			<input
+				type="checkbox"
+				id="check"
+			/>
+			<label
+				for="check"
+				class="checkbtn"
+			>
+				<img
+					src="/images/hamburger-white.png"
+					id="mobile-menu"
+				/>
+				<img
+					src="/images/close-white.png"
+					id="mobile-close"
+				/>
+			</label>
+			<a href="/">
+				<img
+					class="logo"
+					src="/images/logo.png"
+					alt="Home"
+				/>
+			</a>
+			<ul class="navbar-links">
+				<li>
+					<a href="/crown-preparation/">Crown Preparation</a>
+				</li>
+				<li>
+					<a href="/crown-insertion/">Crown Insertion</a>
+				</li>
+				<li>
+					<a href="/restoration/">Restorations</a>
+				</li>
+				<li>
+					<a href="/surgical-procedure/">Surgical Procedure</a>
+				</li>
+				<li>
+					<a href="/root-canal/">Root Canal Treatment</a>
+				</li>
+				<li>
+					<a href="/new-patient-exam/">New Patient Exam</a>
+				</li>
+				<li>
+					<div class="dropdown">
+						<button class="dropbtn">Specific Exam</button>
+						<div class="dropdown-content">
+							<a
+								class="dropdown-a"
+								href="/specific-exam-new-patient"
+								>New Patient</a
+							>
+							<a
+								class="dropdown-a"
+								href="/specific-exam-exisiting"
+								>Exisiting Paitent</a
+							>
+						</div>
+					</div>
+				</li>
+			</ul>
+		</nav>
 		<h1>Root Canal</h1>
 	</body>
 </html>

@@ -1,0 +1,50 @@
+h1 {
+	text-align: center;
+	padding: 20px;
+}
+
+.photo-container {
+	grid-template-columns: repeat(2, 1fr);
+	border-radius: 10px;
+	background-color: var(--custom-white);
+	display: grid;
+}
+
+.photo-container img {
+	max-width: 600px;
+	max-height: 800px;
+	object-fit: cover;
+	width: 100%;
+	height: auto;
+}
+.photo-container p {
+	padding: 5px;
+	text-align: center;
+}
+
+.photo-container > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 20px;
+}
+
+#crown-prep .photo-container > :first-child {
+	grid-column: span 2;
+}
+
+.checklist-grid {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 10px;
+}
+
+.checklist-list label {
+	display: flex;
+	align-items: center;
+}
+
+.checkbox-extra-info p {
+	margin-left: 20px;
+}
